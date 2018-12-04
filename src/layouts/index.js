@@ -19,7 +19,6 @@ const Layout = ({ children, data }) => (
     <Footer data={data}>
     2019 H Collective™ <a href="mailto:keith@thehhub.com"> Email Us</a>
     </Footer>
-  
   </div>
 )
 

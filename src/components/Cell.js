@@ -6,6 +6,7 @@ const CellGroup = styled.div`
     grid-template-columns: 60px auto;
     grid-gap: 25px;
     align-items: center;
+    padding: 10px;
 `
 
 const CellImage = styled.div`

@@ -10,7 +10,7 @@ const FooterGroup = styled.div`
 const Text = styled.p`
     font-size: 24px;
     font-weight: 600;
-    color: blue;
+    color: #3F3F3F;
     max-width: 500px;
     margin: 0 auto;
 `
@@ -37,20 +37,20 @@ const LinkGroup = styled.div`
     width: auto;
     margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;  
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35    px;  
 
     a{
         transition: 0.8s;
     }  
 
     a:hover {
-        color: black;
+        color: #3F3F3F;
     }
 `
 
 const Copyright = styled.div`
-    color: black;
+    color: #3F3F3F;
     max-width: 500px;
     margin: 0 auto;
     padding: 0 20px;
@@ -58,8 +58,8 @@ const Copyright = styled.div`
 
 const Footer = ({data, children}) => (
     <FooterGroup> 
-        <Text>Tweet "holla at cha boy. New website by@keithalva"</Text>
-        <Button>Tweet</Button>
+        <Text>Vestibulum id ligula porta felis euismod semper.</Text>
+        <Button>Get Started</Button>
         <LinkGroup>
         {data.allContentfulLink.edges.map(edge => (
         <a href={edge.node.url}>{edge.node.title}</a>

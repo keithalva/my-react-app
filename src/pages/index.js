@@ -49,29 +49,29 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="Cards">
-        <h2>Create Unlimted Jobs.</h2>
+        <h2>Curabitur blandit tempus porttitor.</h2>
         <div className="CardGroup">
         <Card
           title="Photographers"
-          text="12 sections"
-          image={require('../images/wallpaper1.png')} />
+          text="1"
+          image={require('../images/card1.png')} />
         <Card
           title="Models"
-          text="12 sections"
-          image={require('../images/wallpaper2.png')} />
+          text="2"
+          image={require('../images/card2.png')} />
         <Card
           title="Videographers"
-          text="12 sections"
-          image={require('../images/wallpaper1.png')} />
+          text="3"
+          image={require('../images/card3.png')} />
         </div>
       </div>
         <Section 
-          image={require('../images/wallpaper1.png')}
-          logo={require('../images/logo-react.png')}
-          title="H Collective"
+          image={require('../images/wallpaper2.png')}
+          logo={require('../images/logo-hub.png')}
+          title="Consectetur Malesuada Pellentesque."
           text="Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros."
           />
-          <SectionCaption>12 Sections - 6 Hours</SectionCaption>
+          <SectionCaption>Adipiscing Ullamcorper Tristique Bibendum</SectionCaption>
           <SectionCellGroup>
             {staticdata.cells.map(cell => (
             <Cell
